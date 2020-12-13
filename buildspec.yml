@@ -20,6 +20,6 @@ artifacts:
     - target/messageUtil-1.0.jar
 reports:
   SurefireReports:
-  files:
-    - '**/*'
-  base-directory: 'target/surefire-reports'
+    files:
+      - '**/*'
+    base-directory: 'target/surefire-reports'
