@@ -11,9 +11,15 @@ phases:
     commands:
       - echo Build started on `date`
       - mvn install
+	  - mvn surefire-report:report
   post_build:
     commands:
       - echo Build completed on `date`
 artifacts:
   files:
     - target/messageUtil-1.0.jar
+reports:
+  SurefireReports:
+  files:
+    - '**/*'
+  base-directory: 'target/surefire-reports'
