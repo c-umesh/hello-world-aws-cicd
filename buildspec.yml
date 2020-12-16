@@ -22,7 +22,7 @@ reports:
     base-directory: 'target/surefire-reports'
   jacoco-report:
     files:
-      - '**/*'
+      - 'target/surefire-reports/jacoco-coverage-report.xml'
     file-format: 'JACOCOXML'
 artifacts:
   files:
