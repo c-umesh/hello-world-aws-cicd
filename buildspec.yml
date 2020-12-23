@@ -25,7 +25,7 @@ reports:
     files:
       -  *.xml
     file-format: 'JACOCOXML'
-    base-directory: 'target/site/jacoco/'
+    base-directory: 'target/site/jacoco
 artifacts:
   files:
     - target/messageUtil-1.0.jar
