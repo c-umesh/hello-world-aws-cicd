@@ -12,7 +12,6 @@ phases:
       - echo Build started on `date`
       - mvn install
       - mvn surefire-report:report
-      - mvn jacoco:report
   post_build:
     commands:
       - echo Build completed on `date`
@@ -23,9 +22,9 @@ reports:
     base-directory: 'target/surefire-reports'
   jacoco-report:
     files:
-      -  *.xml
+      - 'test-results/jacoco-coverage-report.xml'
+    base-directory: 'target/site/jacoco'
     file-format: 'JACOCOXML'
-    base-directory: 'target/site/jacoco
 artifacts:
   files:
     - target/messageUtil-1.0.jar
