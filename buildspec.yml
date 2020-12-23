@@ -23,10 +23,9 @@ reports:
     base-directory: 'target/surefire-reports'
   jacoco-report:
     files:
-      - '**/*'
+      -  reports/jacoco/*.xml
     file-format: 'JACOCOXML'
 artifacts:
   files:
     - target/messageUtil-1.0.jar
-
 
