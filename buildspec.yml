@@ -12,6 +12,7 @@ phases:
       - echo Build started on `date`
       - mvn install
       - mvn surefire-report:report
+      - mvn jacoco:report
   post_build:
     commands:
       - echo Build completed on `date`
@@ -27,4 +28,3 @@ reports:
 artifacts:
   files:
     - target/messageUtil-1.0.jar
-
