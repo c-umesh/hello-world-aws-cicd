@@ -22,8 +22,6 @@ reports:
       - '**/*'
     base-directory: 'target/surefire-reports'
   jacoco-report:
-    files:
-      - 'test-results/jacoco-coverage-report.xml'
     discard-paths: yes
     file-format: JACOCOXML
 artifacts:
