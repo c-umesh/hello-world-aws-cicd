@@ -24,6 +24,7 @@ reports:
   jacoco-report:
     discard-paths: yes
     file-format: JACOCOXML
+    base-directory: 'target'
 artifacts:
   files:
     - target/messageUtil-1.0.jar
