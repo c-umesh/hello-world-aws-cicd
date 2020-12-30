@@ -24,7 +24,7 @@ reports:
   jacoco-report:
     discard-paths: yes
     file-format: JACOCOXML
-    base-directory: 'target/'
+    base-directory: '/codebuild/output/src090271592/src/github.com/c-umesh/hello-world-aws-cicd/target'
 artifacts:
   files:
     - target/messageUtil-1.0.jar
