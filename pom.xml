@@ -15,10 +15,10 @@
       <scope>test</scope>
     </dependency>	
   </dependencies>
-  <build>
-    <properties>
-      <argLine>-your -extra -arguments</argLine>
-    </properties>
+  <properties>
+     <argLine>-your -extra -arguments</argLine>
+  </properties>
+  <build> 
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
