@@ -18,4 +18,9 @@ phases:
 artifacts:
   files:
     - target/messageUtil-1.0.jar
-    - test-reports/*.xml
+  discard-paths: yes
+  secondary-artifacts:
+    artifact1:
+      files:
+        - test-reports/*.xml
+      discard-paths: yes
