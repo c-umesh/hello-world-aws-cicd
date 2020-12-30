@@ -17,10 +17,8 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - target/messageUtil-1.0.jar
-  discard-paths: yes
+    - target/messageUtil-1.0.jar  
   secondary-artifacts:
     artifact1:
       files:
-        - test-reports/*.xml
-      discard-paths: yes
+        - **/build/test-reports/*.xml
