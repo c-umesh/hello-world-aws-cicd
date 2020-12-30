@@ -17,8 +17,5 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - target/messageUtil-1.0.jar  
-  secondary-artifacts:
-    artifact1:
-      files:
-        - **/build/test-reports/*.xml
+    - target/messageUtil-1.0.jar
+    - target/surefire-reports/*.xml
