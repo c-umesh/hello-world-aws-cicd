@@ -18,4 +18,5 @@ phases:
 artifacts:
   files:
     - target/messageUtil-1.0.jar
-    - raw_report/*.XML
+    - raw_report/*.xml
+	
