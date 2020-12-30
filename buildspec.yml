@@ -23,9 +23,8 @@ reports:
   jacoco-report:
     files:
       - 'test-results/jacoco-coverage-report.xml'
-    base-directory: 'target/site/jacoco'
-    file-format: 'JACOCOXML'
+    discard-paths: yes
+    file-format: JACOCOXML
 artifacts:
   files:
     - target/messageUtil-1.0.jar
-
