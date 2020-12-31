@@ -42,7 +42,7 @@
                <outputDirectory>target/jacoco-report</outputDirectory>  
              </configuration>
            </execution>
-         <executions>
+         </executions>
 	  </plugin>
     </plugins>
   </build>
