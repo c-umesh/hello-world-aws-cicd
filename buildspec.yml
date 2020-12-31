@@ -15,7 +15,6 @@ phases:
   post_build:
     commands:
       - echo Build completedddd on `date`
-      - mvn clean test
 artifacts:
   files:
     - target/messageUtil-1.0.jar
