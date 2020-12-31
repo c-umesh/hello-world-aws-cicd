@@ -23,6 +23,6 @@ artifacts:
     - target/jacoco-report/*.*
 reports:
   jacoco-report:
-  files:
-    - target/jacoco-report/jacoco.xml
-  file-format: JACOCOXML
+    files:
+      - target/jacoco-report/jacoco.xml
+    file-format: JACOCOXML
