@@ -21,3 +21,8 @@ artifacts:
     - target/messageUtil-1.0.jar
     - target/surefire-reports/*.xml
     - target/jacoco-report/*.*
+reports:
+  jacoco-report:
+  files:
+    - target/jacoco-report/jacoco.xml
+  file-format: JACOCOXML
