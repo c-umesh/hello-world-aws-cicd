@@ -26,3 +26,6 @@ reports:
     files:
       - target/jacoco-report/jacoco.xml
     file-format: JACOCOXML
+  surefire-report:
+    files:
+      - target/surefire-reports/*.*
