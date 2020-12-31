@@ -11,11 +11,13 @@ phases:
     commands:
       - echo Build started on `date`
       - mvn install
-      - echo running test cases
+      - echo running test cases      
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo Build completedddd on `date`
+      - mvn clean test
 artifacts:
   files:
     - target/messageUtil-1.0.jar
     - target/surefire-reports/*.xml
+    - target/jacoco-report/*.*
