@@ -37,10 +37,7 @@
              <phase>test</phase>
              <goals>
                <goal>report</goal>
-             </goals>
-             <configuration>
-               <outputDirectory>target/jacoco-report</outputDirectory>  
-             </configuration>
+             </goals>             
            </execution>
          </executions>
 	  </plugin>
