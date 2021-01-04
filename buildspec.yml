@@ -20,6 +20,7 @@ artifacts:
     - target/messageUtil-1.0.jar
     - target/surefire-reports/*.xml
     - target/jacoco-report/*.*
+    - appspec.yml
 reports:
   jacoco-report:
     files:
